@@ -1,0 +1,483 @@
+* {
+    transition: all 0.5s ease;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a {
+    font-size: 14px;
+}
+
+header {
+    height: 100vh;
+    background-image: url("../img/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider-animation::after {
+    content: " |";
+    font-size: 2.5rem;
+    animation-name: skills;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    font-weight: bolder;
+}
+
+@keyframes skills {
+    1% {
+        content: "D|"
+    }
+
+    2% {
+        content: "De|"
+    }
+
+    3% {
+        content: "Dev|"
+    }
+
+    4% {
+        content: "Deve|"
+    }
+
+    5% {
+        content: "Devel|"
+    }
+
+    6% {
+        content: "Develo|"
+    }
+
+    7% {
+        content: "Develop|"
+    }
+
+    8% {
+        content: "Develope|"
+    }
+
+    9% {
+        content: "Developer|"
+    }
+
+    10% {
+        content: "Develope|"
+    }
+
+    11% {
+        content: "Develop|"
+    }
+
+    12% {
+        content: "Develo|"
+    }
+
+    13% {
+        content: "Devel|"
+    }
+
+    14% {
+        content: "Deve|"
+    }
+
+    15% {
+        content: "Dev|"
+    }
+
+    16% {
+        content: "De|"
+    }
+
+    17% {
+        content: "Des|"
+    }
+
+    18% {
+        content: "Desi|"
+    }
+
+    19% {
+        content: "Desig|"
+    }
+
+    20% {
+        content: "Design|"
+    }
+
+    21% {
+        content: "Designe|"
+    }
+
+    22% {
+        content: "Designer|"
+    }
+
+    23% {
+        content: "Designe|"
+    }
+
+    24% {
+        content: "Design|"
+    }
+
+    25% {
+        content: "Desig|"
+    }
+
+    26% {
+        content: "Desi|"
+    }
+
+    27% {
+        content: "Des|"
+    }
+
+    28% {
+        content: "De|"
+    }
+
+    29% {
+        content: "D|"
+    }
+
+    30% {
+        content: "|"
+    }
+
+    31% {
+        content: "L|"
+    }
+
+    32% {
+        content: "La|"
+    }
+
+    33% {
+        content: "Lar|"
+    }
+
+    34% {
+        content: "Larr|"
+    }
+
+    35% {
+        content: "Larry|"
+    }
+
+    36% {
+        content: "Larry D|"
+    }
+
+    37% {
+        content: "Larry Da|"
+    }
+
+    38% {
+        content: "Larry Dan|"
+    }
+
+    39% {
+        content: "Larry Dani|"
+    }
+
+    40% {
+        content: "Larry Danie|"
+    }
+
+    41% {
+        content: "Larry Daniel|"
+    }
+
+    42% {
+        content: "Larry Daniels|"
+    }
+
+    43% {
+        content: "Larry Daniel|"
+    }
+
+    44% {
+        content: "Larry Danie|"
+    }
+
+    45% {
+        content: "Larry Dani|"
+    }
+
+    46% {
+        content: "Larry Dan|"
+    }
+
+    47% {
+        content: "Larry Da|"
+    }
+
+    48% {
+        content: "Larry D|"
+    }
+
+    49% {
+        content: "Larry|"
+    }
+
+    50% {
+        content: "Larr|"
+    }
+
+    51% {
+        content: "Lar|"
+    }
+
+    52% {
+        content: "La|"
+    }
+
+    53% {
+        content: "L|"
+    }
+
+    100% {
+        content: "|"
+    }
+
+}
+
+.dark-theme {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.caption h5 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.slider * {
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.about-me .content h3 {
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.sub-title {
+    color: #999;
+}
+
+.about-me .content .jobs {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.about-me .content p {
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.skills * {
+    font-size: 13px;
+}
+
+.skills-prog-bar {
+    height: 30px;
+}
+
+
+.skills-prog-bar-one {
+    width: 95%;
+}
+
+.skills-prog-bar-two {
+    width: 80%;
+}
+
+.skills-prog-bar-three {
+    width: 90%;
+}
+
+.button a {
+    padding: 10px 30px;
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    font-size: 13px;
+
+}
+
+.button .contact {
+    color: black;
+}
+
+.button .cv {
+    background-color: black;
+}
+
+.button .cv:hover {
+    color: black;
+    background-color: white;
+}
+
+.button .contact:hover {
+    color: white;
+    background-color: black;
+}
+
+.services,
+.slider-custome,
+.blog {
+    background-color: #f7f7f7;
+    padding: 100px 0 70px;
+}
+
+.card-title {
+    margin-bottom: 15px;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.card-sub-title {
+    color: #748182;
+}
+
+.icons {
+    font-size: 25px;
+    margin-bottom: 15px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background: #f4f4f4;
+    border-radius: 50%;
+}
+
+.card-custome:hover .icons {
+    background-color: black;
+    color: white;
+}
+
+.card-custome {
+    background-color: white;
+}
+
+.carousel-indicators .bullet {
+    width: 12px;
+    height: 12px;
+    z-index: 99;
+    background-color: #869791;
+}
+
+.sections-titles {
+    margin: auto;
+    margin-bottom: 80px;
+    width: fit-content;
+    position: relative;
+}
+
+.sections-titles::after {
+    content: "";
+    background-image: url(../img/dots.png);
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    bottom: -10px;
+    left: 0;
+
+}
+
+.blog-carousel-indicators {
+    bottom: -70px;
+}
+
+.card-body h6 {
+    font-size: 12px;
+    font-weight: 600;
+    color: #888;
+}
+
+.card-body p {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.blog-image {
+    overflow: hidden;
+}
+
+.blog-image:hover img {
+    transform: scale(1.15);
+}
+
+.contact-icons:hover i {
+    color: white;
+    background-color: black;
+}
+
+form input,
+.feedback-form textarea {
+    background-color: #f4f4f4;
+    border: none;
+}
+
+.feedback-form textarea {
+    height: 160px;
+    max-height: 160px;
+    width: 100%;
+}
+
+.image {
+    position: relative;
+}
+
+.portfolio-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.image:hover .portfolio-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: solid 5px gray;
+}
+
+.portfolio-content div {
+    display: flex !important;
+    flex-direction: row;
+}
+
+.portfolio-icons {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    margin: 5px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-carousel {
+    color: #869791;
+    font-size: 2rem;
+}
